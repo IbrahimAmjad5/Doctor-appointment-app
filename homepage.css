@@ -73,7 +73,7 @@ hr{
     font-weight: 600;
     font-size: 63px;
     color: #FFFFFF;
-    margin-top: ;
+    margin: top 30px; ;
 }
 .sm{
     display: flex;
@@ -125,7 +125,7 @@ hr{
     text-align: center;
     width: 80%;
     margin: auto;
-    padding: 50px 0;
+    padding-top: 50px ;
 }
 .find-by h1{
     font-family: outfit;
@@ -137,6 +137,7 @@ hr{
     max-width: 573px;
     margin: auto;
     font-family: outfit;
+    font-weight: 600;
     font-size: 18px;
     color: #4B5563;
     margin-top: 20px;
@@ -168,4 +169,187 @@ hr{
     justify-content: center;
     align-items: center;
 }
+.find-doc{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
 
+.doc-section .rectangle-main{
+    display: flex !important;
+    flex-wrap: wrap;
+  justify-content: center;
+    gap: 20px;
+   
+}
+.doc-section .rectangle{
+    width: 273px;
+    background-color: #C9D8FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C9D8FF ;
+    border-radius: 12px;
+
+}
+.rectangle img{
+    width: 100%;
+}
+.bottom-content{
+    background-color: #EAEFFF ;
+    width: 100%;
+    text-align: start;
+    padding: 15px;
+    border-radius:0 0 12px  12px ;
+}
+.bottom-content .circle{
+    width: 7.25px;
+    height: 7.25px;
+    border-radius: 50%;
+    background-color: #0FBF00;
+}
+.bottom-content .status{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bottom-content h3{
+  font-family: outfit;
+  font-size: 15px;
+  color: #0FBF00;
+}
+.bottom-content h2{
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.bottom-content h5{
+    font-family: outfit;
+    font-size: 15px;
+    color: #4B5563;
+
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.more button{
+    width: 214px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #EAEFFF;
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 20px;
+    border: none;
+}
+.book-Appointment{
+
+    background-color: #5F6FFF;
+    border-radius: 12px;
+}
+.book-Appointment .book-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+.book-Appointment .book-main .book-left{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+}
+.book-Appointment .book-main .book-left h1{
+   text-align: start;
+    font-family: outfit;
+    font-weight: 700;
+    font-size: 52px;
+    max-width: 636px;
+    color: #FFFFFF;
+}
+.book-Appointment .book-main .book-right img{
+    width: 100%;
+    max-width: 580px;
+}
+.book-Appointment .book-main .book-left button{
+width: 214px;
+height: 60px;
+border-radius: 50px;
+background-color: #FFFFFF;
+font-family: outfit;
+font-weight: normal;
+font-size: 20px;
+border: none;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 ;
+}
+.footer .foot-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    width: 55%;
+}
+/* 
+ */
+.footer .foot-left p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    color: #4B5563;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 25px;
+}
+.footer .foot-right{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-align: start;
+}
+.footer .foot-right h1{
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 22px;
+    color: #4B5563;
+}
+.footer .foot-right ul {
+padding-top: 25px;
+}
+.footer .foot-right ul li{
+font-family: outfit;
+font-weight: normal;
+font-size: 18px;
+color: #4B5563;
+list-style: none;
+margin-bottom: 10px;
+
+}
+.hr{
+    width: 100% !important;
+    color: #BDBDBD;
+}
+.Copyright p{
+    font-family: outfit;
+font-weight: normal;
+font-size: 18px;
+margin: 0;
+text-align: center;
+display: flex;
+justify-content: center;
+max-width: 100%;
+padding: 15px 0;
+}
