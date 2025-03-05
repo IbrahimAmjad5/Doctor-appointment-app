@@ -48,6 +48,7 @@ a{
     align-items: center;
     font-size: 18px;
     color: #FFFFFF;
+    font-family: outfit;
 }
 hr{
     width: 80%;
@@ -240,7 +241,7 @@ hr{
 }
 .find-doc h1{
     font-family: outfit;
-    font-weight: ;
+    font-weight: 500;
     font-size: 40px;
     color: #1F2937;
 }
@@ -260,9 +261,11 @@ hr{
   justify-content: center;
     gap: 20px;
     padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
    
 }
-.doc-section .rectangle{
+ .doc-section .rectangle{
     width: 273px;
     background-color: #C9D8FF;
     display: flex;
@@ -310,4 +313,70 @@ hr{
     font-size: 15px;
     color: #4B5563;
 
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 ;
+    width: 80%;
+    margin: auto;
+}
+.footer .foot-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    width: 55%;
+}
+/* 
+ */
+.footer .foot-left p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    color: #4B5563;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 25px;
+}
+.footer .foot-right{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-align: start;
+}
+.footer .foot-right h1{
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 22px;
+    color: #4B5563;
+}
+.footer .foot-right ul {
+padding-top: 25px;
+}
+.footer .foot-right ul li{
+font-family: outfit;
+font-weight: normal;
+font-size: 18px;
+color: #4B5563;
+list-style: none;
+margin-bottom: 10px;
+
+}
+.hr{
+    width: 100% !important;
+    color: #BDBDBD;
+}
+.Copyright p{
+    font-family: outfit;
+font-weight: normal;
+font-size: 18px;
+margin: 0;
+text-align: center;
+display: flex;
+justify-content: center;
+max-width: 100%;
+padding: 15px 0;
 }

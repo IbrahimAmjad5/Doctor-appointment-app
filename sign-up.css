@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./asset/fonts/Poppins-Regular.ttf);
+ 
+}
+@font-face {
+    font-family: 'outfit';
+    src: url(./asset/fonts/Outfit-Regular.ttf) ;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%;
+    margin: auto; */
+    margin-top: 15px;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul{
+     list-style-type: none;
+}
+nav ul li{
+    font-family: 'poppins';
+    display: inline-block;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1F2937;
+}
+.button{
+    width: 195px;
+    height: 54px;
+    background-color: #5F6FFF;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: outfit;
+}
+hr{
+    /* width: 80%;
+    margin: auto; */
+    background-color: #ADADAD;
+    height: 1px;
+    border: 1px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up{
+    max-width: 476px;
+    height: 538px;
+    border-radius: 20px;
+    border: 1px solid #D4D4D4;
+    background-color: #FFFFFF;
+    padding: 50px;
+   margin: 100px;
+    
+}
+.sign-up h2{
+    font-family: outfit;
+    font-weight: 600;
+    color: #4B5563;
+    font-size: 26px;
+}
+.sign-up p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 10px;
+    color: #4B5563;
+}
+.sign-up h5{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 20px;
+    color: #4B5563;
+}
+.sign-up input{
+    width: 385px;
+    height: 43px;
+    border-radius: 4px;
+    border: 1px solid #DADADA;
+    background-color: #FFFFFF;
+    margin-top: 8px;
+}
+.sign-up button{
+    width: 385px;
+    height: 46px;
+    border-radius: 6px;
+    background-color: #5F6FFF;
+    color: #FFFFFF;
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+.sign-up .login{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.sign-up .login h4{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4B5563;
+}
+.sign-up .login span{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #5F6FFF;
+    text-decoration: underline;
+}

@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./asset/fonts/Poppins-Regular.ttf);
+ 
+}
+@font-face {
+    font-family: 'outfit';
+    src: url(./asset/fonts/Outfit-Regular.ttf) ;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul{
+     list-style-type: none;
+}
+nav ul li{
+    font-family: 'poppins';
+    display: inline-block;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1F2937;
+}
+.button{
+    width: 195px;
+    height: 54px;
+    background-color: #5F6FFF;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: outfit;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    background-color: #ADADAD;
+    height: 1px;
+    border: 1px;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+.about-us h1{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 30px;
+    color: #1F2937;
+}
+.about-us span{
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 30px;
+}
+.hero-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+.hero-section .hero-left img{
+    width: 445px;
+    height: 438px;
+}
+.hero-section .hero-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-section .hero-right p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #4B5563;
+}
+.hero-section .hero-right span{
+    font-family: outfit;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1F2937;
+}
+.why-us{
+    display: flex;
+    width: 80%;
+    margin: auto ;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+padding-top: 30px;
+}
+.why-us h1{
+    font-family: outfit;
+    font-size: 18px;
+    font-weight: normal;
+}
+.why-us span{
+    font-family: outfit;
+    font-size: 24px;
+    font-weight: 600;
+}
+.main-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.main-row .row-1{
+    width: 533px;
+    height: 274px;
+    border: 1px solid #ABABAB;
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+.main-row .row-1 h1{
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1F2937;
+}
+.main-row .row-1 p{
+    max-width: 331px;
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #4B5563  ;
+    padding-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 ;
+    width: 80%;
+    margin: auto;
+    padding-top: 30%;
+}
+.footer .foot-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    width: 55%;
+}
+/* 
+ */
+.footer .foot-left p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    color: #4B5563;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 25px;
+}
+.footer .foot-right{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-align: start;
+}
+.footer .foot-right h1{
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 22px;
+    color: #4B5563;
+}
+.footer .foot-right ul {
+padding-top: 25px;
+}
+.footer .foot-right ul li{
+font-family: outfit;
+font-weight: normal;
+font-size: 18px;
+color: #4B5563;
+list-style: none;
+margin-bottom: 10px;
+
+}
+.hr{
+    width: 100% !important;
+    color: #BDBDBD;
+}
+.Copyright p{
+    font-family: outfit;
+font-weight: normal;
+font-size: 18px;
+margin: 0;
+text-align: center;
+display: flex;
+justify-content: center;
+max-width: 100%;
+padding: 15px 0;
+}
