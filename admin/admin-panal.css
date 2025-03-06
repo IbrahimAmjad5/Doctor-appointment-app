@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(/asset/fonts/Poppins-Regular.ttf);
+ 
+}
+@font-face {
+    font-family: 'outfit';
+    src: url(/asset/fonts/Outfit-Regular.ttf) ;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    padding:20px 20px 0 20px;
+    height: 100%;
+}
+.main-contaner{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 20px;
+}
+.navbar .top-main .nav-left img{
+    width: 217px;
+}
+
+.navbar .top-main .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.navbar .top-main .nav-left button{
+    width: 78px;
+    height: 26px;
+    border-radius: 50px;
+    border: 1px solid #4B5563;
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4B5563;
+    cursor: pointer;
+}
+.navbar .top-main .nav-right button{
+    width: 130px;
+    height: 40px;
+    border-radius: 47px;
+    border: none;
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5F6FFF;
+    cursor: pointer;
+}
+.navbar .top-main{
+    display: flex;
+    justify-content: space-between;
+}
+.admin-main{
+    width: 100%;
+    background-color: #F8F9FD;
+    display: flex;
+}
+.admin-main .admin-left{
+    width: 300px;
+    height: 140vh;
+    background-color: #FFFFFF;
+    border-right: 1px solid #BEBEBE;
+}
+.admin-main .admin-left .tab{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    gap: 10px;
+    background-color: #F2F3FF;
+    margin: 15px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 54px;
+}
+.admin-main .admin-left .tab p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    color: #515151;
+
+}
+.admin-main .admin-right .right-top{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.admin-main .admin-right{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    
+}
+.admin-main .admin-right .doc{
+    width: 230px;
+    height: 110px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #F8F9FD;
+}
+.admin-main .admin-right .doc .doc-image h2{
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 24px;
+    color: #515151;
+}
+.admin-main .admin-right .doc .doc-image p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 16px;
+    color: #8893B0;
+}
+.doc .doc-image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.latest-appointment{
+    max-width: 527px;
+    background-color: #FFFFFF;
+    margin-top:20px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+}
+.latest-appointment .latest-top{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 20px;
+}
+.latest-appointment .latest-top h2{
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 18px;
+    color: #323232;
+}
+.book-appointment .book-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.book-appointment .book-left h2{
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 18px;
+    color: #262626;
+}
+.book-appointment .book-left p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 16px;
+    color: #696B80;
+}
+.book-appointment  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.book-appointment .book-right{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #FFE7E2;
+    background-color: #FFE7E2;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
