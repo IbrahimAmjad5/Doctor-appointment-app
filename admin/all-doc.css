@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(/asset/fonts/Poppins-Regular.ttf);
+ 
+}
+@font-face {
+    font-family: 'outfit';
+    src: url(/asset/fonts/Outfit-Regular.ttf) ;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    padding:20px 20px 0 20px;
+    height: 100%;
+}
+.main-contaner{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 20px;
+}
+.navbar .top-main .nav-left img{
+    width: 217px;
+}
+
+.navbar .top-main .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.navbar .top-main .nav-left button{
+    width: 78px;
+    height: 26px;
+    border-radius: 50px;
+    border: 1px solid #4B5563;
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4B5563;
+    cursor: pointer;
+}
+.navbar .top-main .nav-right button{
+    width: 130px;
+    height: 40px;
+    border-radius: 47px;
+    border: none;
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5F6FFF;
+    cursor: pointer;
+}
+.navbar .top-main{
+    display: flex;
+    justify-content: space-between;
+}
+.admin-main{
+    width: 100%;
+    background-color: #F8F9FD;
+    display: flex;
+}
+.admin-main .admin-left{
+    width: 300px;
+    height: 140vh;
+    background-color: #FFFFFF;
+    border-right: 1px solid #BEBEBE;
+}
+.admin-main .admin-left .tab{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    gap: 10px;
+    background-color: #F2F3FF;
+    margin: 15px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 54px;
+}
+.admin-main .admin-left .tab p{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 18px;
+    color: #515151;
+
+}
+.admin-main .admin-right h2{
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 22px;
+    color: #323232;
+    padding: 20px;
+}
+ .styled-table{
+    max-width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-collapse: collapse;
+    margin: 20px;
+}
+.styled-table  .tr {
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 15px;
+    color: #323232;
+    border: 1px solid #E1E1E1;
+}
+.styled-table .tr th{
+    padding: 15px;
+    text-align: start;
+}
+.styled-table tr{
+    font-family: outfit;
+    font-weight: normal;
+    font-size: 13px;
+    color: #696B80;
+    text-align: start;
+    border: 1px solid #E1E1E1;
+}
+.styled-table tr td{
+    padding: 15px;
+}
+.styled-table .image-side img{
+    width: 35px;
+    height: 35px;
+}
+.styled-table .image-side {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.styled-table .close-btn button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #FFE7E2;
+    cursor: pointer;
+}
